@@ -1,6 +1,7 @@
 from datetime import date, datetime
 from typing import Type
 
+
 def classmethods(cls):
     '''Decorate all methods with @classmethod in a class.'''
     for name, value in vars(cls).items():
