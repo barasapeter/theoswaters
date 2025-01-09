@@ -4,5 +4,6 @@ import database
 with open('create_database.sql', 'r') as file:
     database.cursor.execute(''.join(file.readlines()))
 
+
 print('Sample data created and added the database successfully.')
     
