@@ -1,4 +1,4 @@
-# Import the required libraries
+
 from PIL import Image
 import customtkinter as ctk
 from tkinter.messagebox import *
