@@ -2,6 +2,7 @@ DROP DATABASE IF EXISTS theoswaters;
 CREATE DATABASE theoswaters;
 USE theoswaters;
 
+
 CREATE TABLE IF NOT EXISTS merchants (
 	username VARCHAR(200) PRIMARY KEY,
     password VARCHAR(100)
