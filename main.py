@@ -6,7 +6,6 @@ from tkinter import ttk
 from typing import Union
 import database, quick_variables
 
-# App starts here..
 class App(ctk.CTk):
     width = 900
     height = 600
