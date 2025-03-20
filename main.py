@@ -1,5 +1,4 @@
 from PIL import Image
-
 import customtkinter as ctk
 from tkinter.messagebox import *
 from tkinter import ttk
